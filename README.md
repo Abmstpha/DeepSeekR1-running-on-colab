@@ -48,8 +48,8 @@ prompt = "Create a Python function to calculate Fibonacci sequence with O(n) tim
 
 The AI processes this prompt and generates an optimized solution leveraging efficient algorithms.
 
-## **Here startes the Response of Model**
- 
+## **Here starts the Response of Model**
+
 </think>
 
 To calculate the nth Fibonacci number efficiently with O(n) time complexity, we can use an iterative approach. This method ensures that each Fibonacci number is computed in sequence, leading to a linear time complexity relative to the input size.
@@ -89,6 +89,6 @@ This method efficiently computes the Fibonacci sequence in linear time, making i
 
 
 
-''
+
 
 
