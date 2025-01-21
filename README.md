@@ -23,7 +23,7 @@ The notebook demonstrates:
    git clone git@github.com:Abmstpha/DeepSeekR1-running-on-colab.git
    ```
 
-2. **Enter the folder and run the notebook** 
+2. **Enter the folder of the repo** 
    ```bash
    cd deepseek_r1_distill_qwen1_5B_transformers
    ```
