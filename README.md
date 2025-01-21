@@ -20,18 +20,22 @@ The notebook demonstrates:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/<your-username>/deepseek_r1_distill_qwen1_5B_transformers.git
+   git clone git@github.com:Abmstpha/DeepSeekR1-running-on-colab.git
+   ```
+
+2. **Enter the folder and run the notebook** 
+   ```bash
    cd deepseek_r1_distill_qwen1_5B_transformers
+   ```
+
+## **Install dependencies: Ensure you have Python and transformers installed.**
+
+   ```bash
+   pip install transformers 
+   ```
 
 
-## Install dependencies: Ensure you have Python and transformers installed.
-
-'bash
-Copy
-Edit
-pip install transformers'
-
-Run the notebook: Open the notebook in your preferred environment and execute the cells sequentially.
+## **Run the notebook: Open the notebook in your preferred environment and execute the cells sequentially.**
 
 Model and Tokenizer
 The model and tokenizer are fetched from Hugging Face:
@@ -40,14 +44,12 @@ Model: DeepSeek-R1-Distill-Qwen-1.5B
 Device: Optimized for GPU execution.
 
 Example Prompt
-python
-Copy
-Edit
 prompt = "Create a Python function to calculate Fibonacci sequence with O(n) time complexity"
 
 The AI processes this prompt and generates an optimized solution leveraging efficient algorithms.
 
-
+## **Here startes the Response of Model**
+ 
 </think>
 
 To calculate the nth Fibonacci number efficiently with O(n) time complexity, we can use an iterative approach. This method ensures that each Fibonacci number is computed in sequence, leading to a linear time complexity relative to the input size.
